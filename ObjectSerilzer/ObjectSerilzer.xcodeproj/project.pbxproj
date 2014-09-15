@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FFBA9F0019C6C69200D9CBA2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FFBA9EFF19C6C69200D9CBA2 /* main.m */; };
+		FFBA9F0319C6C69200D9CBA2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FFBA9F0219C6C69200D9CBA2 /* AppDelegate.m */; };
+		FFBA9F0519C6C69200D9CBA2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFBA9F0419C6C69200D9CBA2 /* Images.xcassets */; };
+		FFBA9F0819C6C69200D9CBA2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFBA9F0619C6C69200D9CBA2 /* LaunchScreen.xib */; };
+		FFBA9F1419C6C69200D9CBA2 /* ObjectSerilzerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FFBA9F1319C6C69200D9CBA2 /* ObjectSerilzerTests.m */; };
+		FFBA9F2F19C6C71600D9CBA2 /* ThreadSafeMutableArry.m in Sources */ = {isa = PBXBuildFile; fileRef = FFBA9F2C19C6C71600D9CBA2 /* ThreadSafeMutableArry.m */; };
+		FFBA9F3019C6C71600D9CBA2 /* ThreadSafeMutableDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = FFBA9F2E19C6C71600D9CBA2 /* ThreadSafeMutableDictionary.m */; };
+		FFBA9F3319C6C71D00D9CBA2 /* NSFileManager_Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = FFBA9F3219C6C71D00D9CBA2 /* NSFileManager_Additions.m */; };
+		FFBA9F3619C6C72500D9CBA2 /* SCach.m in Sources */ = {isa = PBXBuildFile; fileRef = FFBA9F3519C6C72500D9CBA2 /* SCach.m */; };
+		FFBA9F3919C6C73B00D9CBA2 /* JsonToModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FFBA9F3819C6C73B00D9CBA2 /* JsonToModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FFBA9F0E19C6C69200D9CBA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFBA9EF219C6C69200D9CBA2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFBA9EF919C6C69200D9CBA2;
+			remoteInfo = ObjectSerilzer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FFBA9EFA19C6C69200D9CBA2 /* ObjectSerilzer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObjectSerilzer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFBA9EFE19C6C69200D9CBA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFBA9EFF19C6C69200D9CBA2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FFBA9F0119C6C69200D9CBA2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FFBA9F0219C6C69200D9CBA2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FFBA9F0419C6C69200D9CBA2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FFBA9F0719C6C69200D9CBA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FFBA9F0D19C6C69200D9CBA2 /* ObjectSerilzerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ObjectSerilzerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFBA9F1219C6C69200D9CBA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFBA9F1319C6C69200D9CBA2 /* ObjectSerilzerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjectSerilzerTests.m; sourceTree = "<group>"; };
+		FFBA9F2B19C6C71600D9CBA2 /* ThreadSafeMutableArry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreadSafeMutableArry.h; sourceTree = "<group>"; };
+		FFBA9F2C19C6C71600D9CBA2 /* ThreadSafeMutableArry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreadSafeMutableArry.m; sourceTree = "<group>"; };
+		FFBA9F2D19C6C71600D9CBA2 /* ThreadSafeMutableDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreadSafeMutableDictionary.h; sourceTree = "<group>"; };
+		FFBA9F2E19C6C71600D9CBA2 /* ThreadSafeMutableDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreadSafeMutableDictionary.m; sourceTree = "<group>"; };
+		FFBA9F3119C6C71D00D9CBA2 /* NSFileManager_Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSFileManager_Additions.h; sourceTree = "<group>"; };
+		FFBA9F3219C6C71D00D9CBA2 /* NSFileManager_Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSFileManager_Additions.m; sourceTree = "<group>"; };
+		FFBA9F3419C6C72500D9CBA2 /* SCach.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCach.h; sourceTree = "<group>"; };
+		FFBA9F3519C6C72500D9CBA2 /* SCach.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCach.m; sourceTree = "<group>"; };
+		FFBA9F3719C6C73B00D9CBA2 /* JsonToModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JsonToModel.h; sourceTree = "<group>"; };
+		FFBA9F3819C6C73B00D9CBA2 /* JsonToModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JsonToModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FFBA9EF719C6C69200D9CBA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFBA9F0A19C6C69200D9CBA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FFBA9EF119C6C69200D9CBA2 = {
+			isa = PBXGroup;
+			children = (
+				FFBA9F2A19C6C70100D9CBA2 /* serilzerFile */,
+				FFBA9EFC19C6C69200D9CBA2 /* ObjectSerilzer */,
+				FFBA9F1019C6C69200D9CBA2 /* ObjectSerilzerTests */,
+				FFBA9EFB19C6C69200D9CBA2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FFBA9EFB19C6C69200D9CBA2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFBA9EFA19C6C69200D9CBA2 /* ObjectSerilzer.app */,
+				FFBA9F0D19C6C69200D9CBA2 /* ObjectSerilzerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFBA9EFC19C6C69200D9CBA2 /* ObjectSerilzer */ = {
+			isa = PBXGroup;
+			children = (
+				FFBA9F0119C6C69200D9CBA2 /* AppDelegate.h */,
+				FFBA9F0219C6C69200D9CBA2 /* AppDelegate.m */,
+				FFBA9F0419C6C69200D9CBA2 /* Images.xcassets */,
+				FFBA9F0619C6C69200D9CBA2 /* LaunchScreen.xib */,
+				FFBA9EFD19C6C69200D9CBA2 /* Supporting Files */,
+			);
+			path = ObjectSerilzer;
+			sourceTree = "<group>";
+		};
+		FFBA9EFD19C6C69200D9CBA2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FFBA9EFE19C6C69200D9CBA2 /* Info.plist */,
+				FFBA9EFF19C6C69200D9CBA2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FFBA9F1019C6C69200D9CBA2 /* ObjectSerilzerTests */ = {
+			isa = PBXGroup;
+			children = (
+				FFBA9F1319C6C69200D9CBA2 /* ObjectSerilzerTests.m */,
+				FFBA9F1119C6C69200D9CBA2 /* Supporting Files */,
+			);
+			path = ObjectSerilzerTests;
+			sourceTree = "<group>";
+		};
+		FFBA9F1119C6C69200D9CBA2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FFBA9F1219C6C69200D9CBA2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FFBA9F2A19C6C70100D9CBA2 /* serilzerFile */ = {
+			isa = PBXGroup;
+			children = (
+				FFBA9F2B19C6C71600D9CBA2 /* ThreadSafeMutableArry.h */,
+				FFBA9F2C19C6C71600D9CBA2 /* ThreadSafeMutableArry.m */,
+				FFBA9F2D19C6C71600D9CBA2 /* ThreadSafeMutableDictionary.h */,
+				FFBA9F2E19C6C71600D9CBA2 /* ThreadSafeMutableDictionary.m */,
+				FFBA9F3119C6C71D00D9CBA2 /* NSFileManager_Additions.h */,
+				FFBA9F3219C6C71D00D9CBA2 /* NSFileManager_Additions.m */,
+				FFBA9F3719C6C73B00D9CBA2 /* JsonToModel.h */,
+				FFBA9F3819C6C73B00D9CBA2 /* JsonToModel.m */,
+				FFBA9F3419C6C72500D9CBA2 /* SCach.h */,
+				FFBA9F3519C6C72500D9CBA2 /* SCach.m */,
+			);
+			path = serilzerFile;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FFBA9EF919C6C69200D9CBA2 /* ObjectSerilzer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFBA9F1719C6C69200D9CBA2 /* Build configuration list for PBXNativeTarget "ObjectSerilzer" */;
+			buildPhases = (
+				FFBA9EF619C6C69200D9CBA2 /* Sources */,
+				FFBA9EF719C6C69200D9CBA2 /* Frameworks */,
+				FFBA9EF819C6C69200D9CBA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ObjectSerilzer;
+			productName = ObjectSerilzer;
+			productReference = FFBA9EFA19C6C69200D9CBA2 /* ObjectSerilzer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FFBA9F0C19C6C69200D9CBA2 /* ObjectSerilzerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFBA9F1A19C6C69200D9CBA2 /* Build configuration list for PBXNativeTarget "ObjectSerilzerTests" */;
+			buildPhases = (
+				FFBA9F0919C6C69200D9CBA2 /* Sources */,
+				FFBA9F0A19C6C69200D9CBA2 /* Frameworks */,
+				FFBA9F0B19C6C69200D9CBA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFBA9F0F19C6C69200D9CBA2 /* PBXTargetDependency */,
+			);
+			name = ObjectSerilzerTests;
+			productName = ObjectSerilzerTests;
+			productReference = FFBA9F0D19C6C69200D9CBA2 /* ObjectSerilzerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FFBA9EF219C6C69200D9CBA2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = striveliu;
+				TargetAttributes = {
+					FFBA9EF919C6C69200D9CBA2 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					FFBA9F0C19C6C69200D9CBA2 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = FFBA9EF919C6C69200D9CBA2;
+					};
+				};
+			};
+			buildConfigurationList = FFBA9EF519C6C69200D9CBA2 /* Build configuration list for PBXProject "ObjectSerilzer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FFBA9EF119C6C69200D9CBA2;
+			productRefGroup = FFBA9EFB19C6C69200D9CBA2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FFBA9EF919C6C69200D9CBA2 /* ObjectSerilzer */,
+				FFBA9F0C19C6C69200D9CBA2 /* ObjectSerilzerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FFBA9EF819C6C69200D9CBA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFBA9F0819C6C69200D9CBA2 /* LaunchScreen.xib in Resources */,
+				FFBA9F0519C6C69200D9CBA2 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFBA9F0B19C6C69200D9CBA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FFBA9EF619C6C69200D9CBA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFBA9F3619C6C72500D9CBA2 /* SCach.m in Sources */,
+				FFBA9F3319C6C71D00D9CBA2 /* NSFileManager_Additions.m in Sources */,
+				FFBA9F0319C6C69200D9CBA2 /* AppDelegate.m in Sources */,
+				FFBA9F3919C6C73B00D9CBA2 /* JsonToModel.m in Sources */,
+				FFBA9F2F19C6C71600D9CBA2 /* ThreadSafeMutableArry.m in Sources */,
+				FFBA9F0019C6C69200D9CBA2 /* main.m in Sources */,
+				FFBA9F3019C6C71600D9CBA2 /* ThreadSafeMutableDictionary.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFBA9F0919C6C69200D9CBA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFBA9F1419C6C69200D9CBA2 /* ObjectSerilzerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FFBA9F0F19C6C69200D9CBA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFBA9EF919C6C69200D9CBA2 /* ObjectSerilzer */;
+			targetProxy = FFBA9F0E19C6C69200D9CBA2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FFBA9F0619C6C69200D9CBA2 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFBA9F0719C6C69200D9CBA2 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FFBA9F1519C6C69200D9CBA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FFBA9F1619C6C69200D9CBA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FFBA9F1819C6C69200D9CBA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ObjectSerilzer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FFBA9F1919C6C69200D9CBA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ObjectSerilzer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FFBA9F1B19C6C69200D9CBA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ObjectSerilzerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ObjectSerilzer.app/ObjectSerilzer";
+			};
+			name = Debug;
+		};
+		FFBA9F1C19C6C69200D9CBA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ObjectSerilzerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ObjectSerilzer.app/ObjectSerilzer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FFBA9EF519C6C69200D9CBA2 /* Build configuration list for PBXProject "ObjectSerilzer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFBA9F1519C6C69200D9CBA2 /* Debug */,
+				FFBA9F1619C6C69200D9CBA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFBA9F1719C6C69200D9CBA2 /* Build configuration list for PBXNativeTarget "ObjectSerilzer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFBA9F1819C6C69200D9CBA2 /* Debug */,
+				FFBA9F1919C6C69200D9CBA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FFBA9F1A19C6C69200D9CBA2 /* Build configuration list for PBXNativeTarget "ObjectSerilzerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFBA9F1B19C6C69200D9CBA2 /* Debug */,
+				FFBA9F1C19C6C69200D9CBA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FFBA9EF219C6C69200D9CBA2 /* Project object */;
+}
